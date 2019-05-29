@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onStart() {
         super.onStart();
-        Log.d("meulog","TUDO COMEÇA AGORA!!!!!!!!!!!!!!!!!!!!");
+        Log.d("meulog","TUDO COMEÇA AGORA!!!!!!!!!!!222!!!!!!!!!!");
     }
 
 
