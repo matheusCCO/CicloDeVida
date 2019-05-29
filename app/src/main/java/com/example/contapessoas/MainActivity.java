@@ -72,11 +72,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    @Override
-    protected void onStop() {
-        super.onStop();
-        Log.d("meulog","O SONHO ACABOU!!!!!!!!!!!!!!!!!!!!!");
-    }
+
 
     @Override
     protected void onStart() {
