@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/botaoHomem"
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:layout_marginStart="68dp"
+        android:layout_marginLeft="68dp"
+        android:layout_marginBottom="96dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/botaoMulher"
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:layout_marginEnd="76dp"
+        android:layout_marginRight="76dp"
+        android:layout_marginBottom="96dp"
+        android:background="@color/colorAccent"
+        android:text="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textoPessoa"
+        android:layout_width="wrap_content"
+        android:layout_height="21dp"
+        android:layout_marginStart="175dp"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="214dp"
+        android:layout_marginEnd="168dp"
+        android:layout_marginRight="168dp"
+        android:layout_marginBottom="344dp"
+        android:text="Pessoas: 0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/botaoReset" />
+
+    <Button
+        android:id="@+id/botaoReset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="162dp"
+        android:layout_marginLeft="162dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="162dp"
+        android:layout_marginRight="162dp"
+        android:text="Reset"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
